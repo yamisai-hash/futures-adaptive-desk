@@ -1,0 +1,6 @@
+# Representative showcase deps
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2
+PyYAML>=6.0
+streamlit>=1.30   # dashboards

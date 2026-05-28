@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-28T01:30:25",
+  "sample_size": 20,
+  "overall_verdict": "PARTIALLY_PREDICTIVE",
+  "score_correlation": {
+    "n_reviews": 20,
+    "rank_correlation": -0.58,
+    "scoring_predictive": false,
+    "bucket_stats": {
+      "0-39": {
+        "n": 19,
+        "avg_r": 1.43,
+        "win_rate": 0.737
+      },
+      "50-59": {
+        "n": 1,
+        "avg_r": 2.57,
+        "win_rate": 1.0
+      }
+    }
+  },
+  "weight_recommendations": [
+    {
+      "factor": "session_blocked",
+      "action": "REDUCE_WEIGHT",
+      "reason": "harmful: avg R -2.07 when present"
+    },
+    {
+      "factor": "economic_event_guard",
+      "action": "INCREASE_WEIGHT",
+      "reason": "avg R +1.50 when present"
+    }
+  ],
+  "note": "Honest verdict: scoring is not yet predictive at this sample size. Collecting more data before tuning weights."
+}

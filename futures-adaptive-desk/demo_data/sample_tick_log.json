@@ -1,0 +1,28 @@
+{
+  "ticks": [
+    {
+      "tick": 90,
+      "ts": "2026-05-28T01:36:58",
+      "session": "asia",
+      "n_signals": 0,
+      "submitted": 0,
+      "stage": "NO_CANDIDATE"
+    },
+    {
+      "tick": 91,
+      "ts": "2026-05-28T01:41:58",
+      "session": "asia",
+      "n_signals": 1,
+      "submitted": 0,
+      "stage": "BLOCKED_NEWS_WINDOW"
+    },
+    {
+      "tick": 92,
+      "ts": "2026-05-28T01:46:58",
+      "session": "asia",
+      "n_signals": 0,
+      "submitted": 0,
+      "stage": "NO_CANDIDATE"
+    }
+  ]
+}

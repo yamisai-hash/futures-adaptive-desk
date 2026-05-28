@@ -1,0 +1,24 @@
+# desk_config.example.yaml -- copy to desk_config.yaml and edit.
+# Paper / demo only. No live broker credentials belong in this file.
+
+mode: paper                 # paper only in this showcase
+tick_seconds: 300
+instruments: [MES, MNQ, MGC, MCL]
+
+risk:
+  max_trades_per_day: 8
+  daily_drawdown_R: -3.0
+  loss_streak_cooldown_min: 60
+  kill_switch_default: engaged
+
+confluence:
+  no_trade_threshold: 50    # scores below this -> NO_TRADE
+  weights:
+    htf_bias: 0.30
+    structure: 0.30
+    session: 0.20
+    news_guard: 0.20
+
+data:
+  provider: yfinance
+  lookback_minutes: 300

@@ -1,0 +1,70 @@
+{
+  "mode": "paper",
+  "note": "Sanitized, illustrative sample. Simulated fills only -- not live trades, not advice.",
+  "closed": [
+    {
+      "id": "PT-1001",
+      "strategy": "vwap_reclaim",
+      "instrument": "MES",
+      "side": "long",
+      "entry": 7521.25,
+      "exit": 7536.75,
+      "r": 2.1,
+      "result": "win",
+      "confluence_score": 58
+    },
+    {
+      "id": "PT-1002",
+      "strategy": "liquidity_sweep",
+      "instrument": "MNQ",
+      "side": "short",
+      "entry": 21044.0,
+      "exit": 21002.5,
+      "r": 1.4,
+      "result": "win",
+      "confluence_score": 61
+    },
+    {
+      "id": "PT-1003",
+      "strategy": "ema_continuation",
+      "instrument": "MGC",
+      "side": "long",
+      "entry": 4530.1,
+      "exit": 4527.0,
+      "r": -1.0,
+      "result": "loss",
+      "confluence_score": 44
+    },
+    {
+      "id": "PT-1004",
+      "strategy": "liquidity_sweep",
+      "instrument": "MES",
+      "side": "short",
+      "entry": 7540.0,
+      "exit": 7548.0,
+      "r": -1.0,
+      "result": "loss",
+      "confluence_score": 52
+    },
+    {
+      "id": "PT-1005",
+      "strategy": "vwap_reclaim",
+      "instrument": "MCL",
+      "side": "long",
+      "entry": 97.3,
+      "exit": 98.05,
+      "r": 2.6,
+      "result": "win",
+      "confluence_score": 57
+    }
+  ],
+  "lifetime": {
+    "trades_n": 36,
+    "wins": 11,
+    "losses": 19,
+    "open": 6,
+    "win_rate": 0.3,
+    "avg_r": 0.14,
+    "expectancy_usd": 3.04
+  }
+}
